@@ -1,0 +1,63 @@
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: crimson;
+}
+
+.banner{
+    color: white;
+    text-align: center;
+    height: 370px;
+}
+
+.main{
+    background-color: whitesmoke;
+    height: 50px;text-align: center;
+}
+.bot{
+    display: flex;
+}
+.mecze{
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 230px;
+}
+
+.right{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+}
+
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+}
+#img1{
+    width: 900px;
+}
+
+
+#img2{
+    width: 150px;
+}
+
+.box{
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.box:hover{
+    border: 1px solid white;
+}
