@@ -50,7 +50,7 @@
         while($tab = mysqli_fetch_array($wynik)){
             echo "<li>".$tab['imie']." ".$tab['nazwisko']."</li>";
         }
-        echo "</ul>" ;
+        echo "</ul>";
 
         mysqli_close($polacz);
         ?>
